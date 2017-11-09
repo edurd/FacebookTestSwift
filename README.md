@@ -35,7 +35,7 @@ Once finish.
    
    Add the following code to AppDelegate file after adding the `import FacebookCore` at the top of the file
    ```
-       func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
         let sourceApplication: String? = options[UIApplicationOpenURLOptionsKey.sourceApplication] as? String
         return SDKApplicationDelegate.shared.application(app, open: url, sourceApplication: sourceApplication, annotation: options[UIApplicationOpenURLOptionsKey.annotation])
     }
