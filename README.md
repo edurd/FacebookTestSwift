@@ -1,4 +1,4 @@
-# FacebookTestSwift
+# How to integrate Facebook API on Swift
 Using Facebook API to login and logout in Swift
 
 #### Instalation
